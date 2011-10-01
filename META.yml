@@ -1,0 +1,24 @@
+--- #YAML:1.0
+name:               CGI-ExtDirect
+version:            1.00
+abstract:           RPC::ExtDirect gateway for CGI
+author:
+    - Alexander Tokarev <tokarev@cpan.org>
+license:            perl
+distribution_type:  module
+configure_requires:
+    ExtUtils::MakeMaker:  0
+build_requires:
+    ExtUtils::MakeMaker:  0
+requires:
+    CGI::Test:       0.2
+    RPC::ExtDirect:  1.10
+    Test::More:      0
+no_index:
+    directory:
+        - t
+        - inc
+generated_by:       ExtUtils::MakeMaker version 6.57_05
+meta-spec:
+    url:      http://module-build.sourceforge.net/META-spec-v1.4.html
+    version:  1.4
