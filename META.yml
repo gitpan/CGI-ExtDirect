@@ -1,6 +1,6 @@
 --- #YAML:1.0
 name:               CGI-ExtDirect
-version:            1.12
+version:            2.00
 abstract:           RPC::ExtDirect gateway for CGI
 author:
     - Alexander Tokarev <tokarev@cpan.org>
@@ -12,7 +12,7 @@ build_requires:
     CGI::Test:   0.3
     Test::More:  0
 requires:
-    RPC::ExtDirect:  1.21
+    RPC::ExtDirect:  2.00
 resources:
     bugtracker:  http://github.com/nohuhu/CGI-ExtDirect/issues
     repository:  http://github.com/nohuhu/CGI-ExtDirect
