@@ -60,4 +60,5 @@ t/lib/RPC/ExtDirect/Test/Env.pm
 t/pod.t
 t/cgi-bin/.placeholder
 examples/htdocs/cgi-bin/.placeholder
-META.yml                                 Module meta-data (added by MakeMaker)
+META.yml                                 Module YAML meta-data (added by MakeMaker)
+META.json                                Module JSON meta-data (added by MakeMaker)
