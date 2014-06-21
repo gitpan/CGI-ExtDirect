@@ -23,7 +23,7 @@
       "build" : {
          "requires" : {
             "CGI::Test" : "0.32",
-            "Test::More" : "0"
+            "Test::More" : "0.82"
          }
       },
       "configure" : {
@@ -34,7 +34,8 @@
       "runtime" : {
          "requires" : {
             "CGI" : "0",
-            "RPC::ExtDirect" : "3.00"
+            "RPC::ExtDirect" : "3.01",
+            "perl" : "5.006"
          }
       }
    },
@@ -47,5 +48,5 @@
          "url" : "http://github.com/nohuhu/CGI-ExtDirect"
       }
    },
-   "version" : "3.00"
+   "version" : "3.01"
 }
