@@ -4,7 +4,7 @@
       "Alex Tokarev <tokarev@cpan.org>"
    ],
    "dynamic_config" : 1,
-   "generated_by" : "ExtUtils::MakeMaker version 6.98, CPAN::Meta::Converter version 2.140640",
+   "generated_by" : "ExtUtils::MakeMaker version 6.84, CPAN::Meta::Converter version 2.132661",
    "license" : [
       "perl_5"
    ],
@@ -22,7 +22,8 @@
    "prereqs" : {
       "build" : {
          "requires" : {
-            "CGI::Test" : "0.32",
+            "CGI::Test" : "0.50",
+            "ExtUtils::MakeMaker" : "0",
             "Test::More" : "0.82"
          }
       },
@@ -42,11 +43,11 @@
    "release_status" : "stable",
    "resources" : {
       "bugtracker" : {
-         "web" : "http://github.com/nohuhu/CGI-ExtDirect/issues"
+         "web" : "https://github.com/nohuhu/CGI-ExtDirect/issues"
       },
       "repository" : {
-         "url" : "http://github.com/nohuhu/CGI-ExtDirect"
+         "url" : "https://github.com/nohuhu/CGI-ExtDirect"
       }
    },
-   "version" : "3.01"
+   "version" : "3.10"
 }
